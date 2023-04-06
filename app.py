@@ -16,7 +16,7 @@ app.config["OPENAPI_URL_PREFIX"] = "/"
 app.config["OPENAPI_SWAGGER_UI_PATH"] = "/swagger-ui"
  
 app.config["OPENAPI_SWAGGER_UI_URL"] = "http://localhost:5050/swagger-docs/"
-app.config["OPENAPI_SWAGGER_UI_FILE_PATH"] = "swagger-ui-4.18.0/dist"
+app.config["OPENAPI_SWAGGER_UI_FILE_PATH"] = "swagger-ui-4.18.2/dist"
  
 @app.get('/swagger-docs/<path:filename>')
 def serve_swagger(filename):
